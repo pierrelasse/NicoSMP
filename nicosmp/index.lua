@@ -35,7 +35,6 @@ require("nicosmp/combat/display")
 require("nicosmp/combat/events")
 require("nicosmp/combat/toggle")
 
-require("nicosmp/commands/messaging")
 require("nicosmp/commands/fullbright")
 
 require("nicosmp/staff/spec")
@@ -49,14 +48,11 @@ require("nicosmp/features/tpa")
 require("nicosmp/features/skullDrops")
 
 require("nicosmp/staff/consolecmd")
-require("nicosmp/staff/voidWorld")
-require("nicosmp/staff/support")
 require("nicosmp/staff/xray")
 require("nicosmp/staff/deathLog")
 
 wait(0, function()
     require("nicosmp/staff/chat")
-    require("nicosmp/staff/displayer")
 
     require("nicosmp/display/leaderboards")
 

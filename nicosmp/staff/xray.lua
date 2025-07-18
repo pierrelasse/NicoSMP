@@ -70,7 +70,7 @@ addEvent(BlockBreakEvent, function(event)
     local vein = findVein(block, blockMaterial)
     local count = vein.size()
 
-    local now = Time.now()
+    local now = time.unixMs()
     for b in forEach(vein) do
         processedBlocks.put(b, now)
     end
