@@ -1,6 +1,6 @@
-local Bukkit = classFor("org.bukkit.Bukkit")
-local Player = classFor("org.bukkit.entity.Player")
-local BlockCommandSender = classFor("org.bukkit.command.BlockCommandSender")
+local Bukkit = import("org.bukkit.Bukkit")
+local Player = import("org.bukkit.entity.Player")
+local BlockCommandSender = import("org.bukkit.command.BlockCommandSender")
 
 
 local Storage = require("@bukkit/Storage")

@@ -1,5 +1,5 @@
 local Particle = import("org.bukkit.Particle")
-local PlayerInteractEvent = classFor("org.bukkit.event.player.PlayerInteractEvent")
+local PlayerInteractEvent = import("org.bukkit.event.player.PlayerInteractEvent")
 
 local function listener(event)
     local itemStack = event.getItem()
@@ -19,7 +19,7 @@ local function listener(event)
     for i = 1, 20 * 2 do
         wait(i, function()
             world.spawnParticle(Particle.FLASH, loc, 5)
-            bukkit.playSoundAt(loc, "block.lava.extinguish", math.random(), math.random())
+            bukkit.playSound(loc, "block.lava.extinguish", math.random(), math.random())
         end)
     end
 end

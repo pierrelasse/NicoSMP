@@ -1,4 +1,4 @@
-local PlayerJoinEvent = classFor("org.bukkit.event.player.PlayerJoinEvent")
+local PlayerJoinEvent = import("org.bukkit.event.player.PlayerJoinEvent")
 
 local lp = require("nicosmp/utils/luckperms")
 local vanish = require("nicosmp/staff/vanish")

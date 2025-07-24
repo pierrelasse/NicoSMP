@@ -1,4 +1,4 @@
-local Statistic = classFor("org.bukkit.Statistic")
+local Statistic = import("org.bukkit.Statistic")
 
 local punishments = require("nicosmp/staff/punishments/index")
 local bans = require("nicosmp/staff/punishments/bans")

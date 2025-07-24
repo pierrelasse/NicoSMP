@@ -1,6 +1,6 @@
 local String = import("java.lang.String")
 local Character = import("java.lang.Character")
-local AsyncPlayerChatEvent = classFor("org.bukkit.event.player.AsyncPlayerChatEvent")
+local AsyncPlayerChatEvent = import("org.bukkit.event.player.AsyncPlayerChatEvent")
 
 local lp = require("nicosmp/utils/luckperms")
 local adminevil = require("nicosmp/staff/adminevil")

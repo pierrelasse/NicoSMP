@@ -1,5 +1,5 @@
-local ArrayList = classFor("java.util.ArrayList")
-local PlayerCommandSendEvent = classFor("org.bukkit.event.player.PlayerCommandSendEvent")
+local ArrayList = import("java.util.ArrayList")
+local PlayerCommandSendEvent = import("org.bukkit.event.player.PlayerCommandSendEvent")
 
 
 addEvent(PlayerCommandSendEvent, function(event)
@@ -12,7 +12,7 @@ addEvent(PlayerCommandSendEvent, function(event)
         if bypass then goto continue end
 
         if string.contains(command, ":") then goto remove end
-        if string.startswith(command, "/") then goto remove end
+        if string.startsWith(command, "/") then goto remove end
 
         goto continue
         ::remove::

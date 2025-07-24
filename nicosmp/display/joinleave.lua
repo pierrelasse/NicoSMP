@@ -1,5 +1,5 @@
-local PlayerJoinEvent = classFor("org.bukkit.event.player.PlayerJoinEvent")
-local PlayerQuitEvent = classFor("org.bukkit.event.player.PlayerQuitEvent")
+local PlayerJoinEvent = import("org.bukkit.event.player.PlayerJoinEvent")
+local PlayerQuitEvent = import("org.bukkit.event.player.PlayerQuitEvent")
 
 
 function SendFirstJoinMSG(player)

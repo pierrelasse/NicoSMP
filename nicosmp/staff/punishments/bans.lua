@@ -1,5 +1,5 @@
-local AsyncPlayerPreLoginEvent = classFor("org.bukkit.event.player.AsyncPlayerPreLoginEvent")
-local AsyncPlayerPreLoginEvent_Result = classFor("org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result")
+local AsyncPlayerPreLoginEvent = import("org.bukkit.event.player.AsyncPlayerPreLoginEvent")
+local AsyncPlayerPreLoginEvent_Result = import("org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result")
 
 local punishments = require("nicosmp/staff/punishments/index")
 

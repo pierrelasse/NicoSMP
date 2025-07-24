@@ -1,4 +1,4 @@
-local PaperServerListPingEvent = classFor("com.destroystokyo.paper.event.server.PaperServerListPingEvent")
+local PaperServerListPingEvent = import("com.destroystokyo.paper.event.server.PaperServerListPingEvent")
 
 local vanish = require("nicosmp/staff/vanish")
 local smpDay = require("nicosmp/utils/smpDay")

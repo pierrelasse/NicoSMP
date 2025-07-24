@@ -1,7 +1,7 @@
-local Player = classFor("org.bukkit.entity.Player")
-local EntityDamageEvent = classFor("org.bukkit.event.entity.EntityDamageEvent")
-local EntityDamageByEntityEvent = classFor("org.bukkit.event.entity.EntityDamageByEntityEvent")
-local PlayerQuitEvent = classFor("org.bukkit.event.player.PlayerQuitEvent")
+local Player = import("org.bukkit.entity.Player")
+local EntityDamageEvent = import("org.bukkit.event.entity.EntityDamageEvent")
+local EntityDamageByEntityEvent = import("org.bukkit.event.entity.EntityDamageByEntityEvent")
+local PlayerQuitEvent = import("org.bukkit.event.player.PlayerQuitEvent")
 
 local combat = require("nicosmp/combat/index")
 

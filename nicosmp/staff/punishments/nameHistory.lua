@@ -1,4 +1,4 @@
-local PlayerJoinEvent = classFor("org.bukkit.event.player.PlayerJoinEvent")
+local PlayerJoinEvent = import("org.bukkit.event.player.PlayerJoinEvent")
 
 local staff = require("nicosmp/staff/index")
 local punishments = require("nicosmp/staff/punishments/index")
